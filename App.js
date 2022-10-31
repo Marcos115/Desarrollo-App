@@ -1,10 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { setStatusBarBackgroundColor, StatusBar } from 'expo-status-bar';
+import { StyleSheet, Button, TextInput, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Hola Coder</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,3 +18,38 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
+// export default function App() {
+//   return (
+//     <View style={styles.container}>
+//       <View style={styles.itemContainer }>
+//         <TextInput placeholder='Add Item' style={styles.inputItem} />
+//         <Button title="Agregar" color={"#841584"} />
+//       </View>
+//       <View style={styles.container}>
+//         <TextInput placeholder='Add Item' style={styles.inputItem}/>
+//         <TextInput placeholder='Add Item'style={styles.inputItem}/>
+//         <TextInput placeholder='Add Item'style={styles.inputItem}/>
+//       </View>
+//     </View>
+//   );
+// }
+
+
+// const styles = StyleSheet.create({
+// container:{
+//   padding: 30,
+//   marginTop: 50,
+// },
+// itemContainer:{
+//   flexDirection: "row", 
+//   justifyContent: "center", 
+//   alignItems: "center",
+// },
+// inputItem:{
+//   borderBottomColor: "black", 
+//   borderBottomWidth: 10,
+//   width: 200,
+// }
+// });
